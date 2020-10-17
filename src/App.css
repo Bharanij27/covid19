@@ -1,0 +1,87 @@
+.wrapper {
+  border: 3px solid grey;
+}
+
+body {
+  background-color: rgb(40, 44, 52);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.loading {
+  position: fixed !important;
+  left: 45% !important;
+  top: 45% !important;
+}
+
+.alertbox {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: center;
+  position: relative;
+}
+
+.bgcases {
+  background-color: #f8d7da;
+  color: #e23028;
+  width: max-content;
+}
+
+.sub-content{
+  height: 20px !important;
+  content: '';
+}
+.statitics {
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.cases {
+  color: #e23028;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.active {
+  color: #007bff;
+}
+.deaths {
+  color: #6c757d;
+}
+
+.no-pad{
+  padding: 0px !important;
+}
+
+.alert-details {
+  width: fit-content !important;
+  text-align: center;
+  height: 100%;
+}
+
+.tablecontainer{
+  overflow-y: scroll;
+  height: 400px;
+  text-align: center;
+}
+
+.tablesorted{
+  height: 10%;
+  display: inline;
+  color: #fff;
+}
+
+.block{
+  display: inline;
+  height: 100px;
+}
+.table th{
+  border: none !important;
+  width: 50%;
+}
